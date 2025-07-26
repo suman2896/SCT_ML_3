@@ -46,12 +46,14 @@ pip install -r requirements.txt
 
 ## 💡 Key Highlights
 
-- Built using Keras Sequential API  
-- Applied data augmentation using `ImageDataGenerator`  
-- Dropout added to reduce overfitting  
-- Trained on binary crossentropy loss  
+- Data loading and preprocessing from Kaggle dataset
+- Feature extraction using multi-channel HOG descriptors
+- Train-test split with stratified sampling
+- SVM training with RBF kernel
+- Evaluation using accuracy, log loss, confusion matrix
+- Visual analysis of confidence scores
+- Random prediction visualization with confidence score
 ---
-
 
 ## 🔮 Future Improvements
 
@@ -61,3 +63,27 @@ pip install -r requirements.txt
 - Hyperparameter tuning with Keras Tuner  
 
 --- 
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you’d like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes.
+4. Commit your changes:
+   ```bash
+   git commit -m "Add: Your message here"
+   ```
+5. Push to your fork:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. Open a Pull Request.
+
+Feel free to open issues for suggestions, improvements, or bugs!
