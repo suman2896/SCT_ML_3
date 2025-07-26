@@ -22,7 +22,7 @@ To train a SVM model that can accurately classify images as either a dog or a ca
 ## 📊 Model Summary
 
 - **Model Type**: SVM 
-- **Evaluation Metrics**: Accuracy  
+- **Evaluation Metrics**: Accuracy, Confusion Matrix
 
 ---
 
